@@ -11,7 +11,7 @@ const Challenge1 = () => {
         <ChallengeWrapper>
             <ChallengeHeading>Challenge 1</ChallengeHeading>
             <Description>Style SingleDiv to look like the image.</Description>
-            <div><img src={a} width={50} height="auto" alt=""/><SingleDiv/></div>
+            <div><img src={a} width={100} height="auto" alt=""/><SingleDiv/></div>
         </ChallengeWrapper>
     )
 }
