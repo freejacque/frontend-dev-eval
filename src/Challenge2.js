@@ -1,16 +1,19 @@
+import styled from 'styled-components'
 import {
     ChallengeHeading,
     ChallengeWrapper,
     Description
-} from './Elements'
-import styled             from 'styled-components'
+}             from './Elements'
 
 const Challenge2 = () => {
     return (
         <ChallengeWrapper>
             <ChallengeHeading>Challenge 2</ChallengeHeading>
             <Description>Make the Moon orbit the Earth.</Description>
-            <div><Earth/><Moon/></div>
+            <div>
+                <Earth/>
+                <Moon/>
+            </div>
         </ChallengeWrapper>
     )
 }
