@@ -2,7 +2,12 @@
 
 ## Estimated time
 1-2 hours (if you're familiar with the skills)
+
 3-4 hours (if you have to look stuff up)
+
+## Prerequisites
+
+Node, git, and a github account
 
 ## Task Summary:
 Clone and modify this React app to meet each of the 4 challenges described within.
