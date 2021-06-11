@@ -16,7 +16,7 @@ Clone and modify this React app to meet each of the 4 challenges described withi
 
 1. Clone this repo, run `npm install` to install the packages and `npm start` to start the development server.
 2. Modify the code to meet each of the challenges described within.
-3. Upload the code to a new public repo on your github account and send the link back to Andrew Gonsalves.
+3. Upload the code to a new public repo on your github account and send the link back to Andrew Gonsalves --OR-- upload the code to a private repo and grant access to `agonsalves`.
 
 # Getting Started with Create React App
 
