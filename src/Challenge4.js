@@ -3,8 +3,17 @@ import {
     ChallengeWrapper,
     Description
 } from './Elements'
+import Table from './Table';
 
-const Challenge4 = () => {
+const Challenge4 = ({ C1, C2, C3 }) => {
+    const theadData = ['Name', 'Count'];
+    const tbodyData = [
+        ['Challenge 1', C1],
+        ['Challenge 2', C2],
+        ['Challenge 3', C3],
+        ['Total', C1 + C2 + C3]
+    ];
+
     return (
         <ChallengeWrapper>
             <ChallengeHeading>Challenge 4</ChallengeHeading>
@@ -13,10 +22,7 @@ const Challenge4 = () => {
                 cleanly.
             </Description>
             <div>
-                <div>C1: #</div>
-                <div>C2: #</div>
-                <div>C3: #</div>
-                <div>Total: #</div>
+                <Table theadData={theadData} tbodyData={tbodyData} />
             </div>
         </ChallengeWrapper>
     )

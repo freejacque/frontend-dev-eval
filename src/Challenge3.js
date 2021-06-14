@@ -4,15 +4,14 @@ import {
     Description
 } from './Elements'
 
-const Challenge3 = () => {
+import DisplayWindowSize from './DisplayWindowSize'
+
+const Challenge3 = ({ increment }) => {
     return (
-        <ChallengeWrapper>
+        <ChallengeWrapper onClick={() => increment(3)}>
             <ChallengeHeading>Challenge 3</ChallengeHeading>
             <Description>Report the window dimensions. This should update when the window size is changed.</Description>
-            <div>
-                <div>Width: {window.innerWidth}px</div>
-                <div>Height: {window.innerHeight}px</div>
-            </div>
+            <DisplayWindowSize/>
         </ChallengeWrapper>
     )
 }
